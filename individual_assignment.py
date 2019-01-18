@@ -2,7 +2,7 @@
 
 import json
 
-with open ('conflict_data_full_lined.json', encoding=utf-8) as file:
+with open ('conflict_data_full_lined.json') as file:
     raw_data_dict = json.load (file) 
 
 venezuela_data = []
